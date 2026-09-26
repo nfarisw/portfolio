@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Naim Faris Benages — Desarrollador Web Junior</title>
+<meta name="description" content="Portfolio de Naim Faris Benages, desarrollador web junior especializado en PHP/CodeIgniter, Angular e Ionic." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">NF<span>.</span></a>
+    <nav class="nav-links">
+      <a href="#about">Sobre mí</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#experience">Experiencia</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Cambiar tema" title="Cambiar tema">
+        <svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3v1.5M12 19.5V21M4.22 4.22l1.06 1.06M18.72 18.72l1.06 1.06M3 12h1.5M19.5 12H21M4.22 19.78l1.06-1.06M18.72 5.28l1.06-1.06" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.8"/></svg>
+      </button>
+      <a class="btn btn-primary nav-cta" href="mailto:nfaris.w@gmail.com">Contactar</a>
+    </div>
+    <button class="menu-btn" id="menu-btn" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about">Sobre mí</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#experience">Experiencia</a>
+    <a href="#contact">Contacto</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Disponible para trabajar · Lleida, España</p>
+        <h1>Hola, soy Naim.<br>Construyo <span class="grad-text">productos web</span> de principio a fin.</h1>
+        <p class="hero-sub">Desarrollador web junior (DAW) con experiencia real en PHP/CodeIgniter, Angular e Ionic. Me gusta llevar un proyecto desde la base de datos hasta la última línea de CSS.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+          <a href="#contact" class="btn btn-ghost">Hablemos</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>5+</strong><span>proyectos full-stack</span></div>
+          <div><strong>2</strong><span>años de formación DAW</span></div>
+          <div><strong>B2</strong><span>inglés certificado (IELTS)</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="photo-card">
+          <img src="photo.jpg" alt="Naim Faris Benages" />
+        </div>
+        <div class="floating-chip chip-1">⚡ CodeIgniter 4</div>
+        <div class="floating-chip chip-2">🅰 Angular</div>
+        <div class="floating-chip chip-3">📱 Ionic + Capacitor</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-tag reveal">Sobre mí</p>
+      <h2 class="section-title reveal">De ciclo formativo a producto real</h2>
+      <div class="about-grid">
+        <p class="about-text reveal">
+          Acabo de graduarme en el Grado Superior de Desarrollo de Aplicaciones Web (DAW), pero llevo dos años construyendo
+          software de verdad: desde un sistema de gestión de incidencias para centros educativos en primer curso hasta una
+          web completa de gestión para un club de fútbol como proyecto final — con panel de administración, roles de usuario
+          y CRUD de principio a fin. También pasé por prácticas profesionales en <strong>Indra Sistemas</strong>, donde trabajé
+          con autenticación en dos pasos y APIs REST.
+        </p>
+        <p class="about-text reveal">
+          Me muevo cómodo tanto en backend (PHP/CodeIgniter, MySQL) como en frontend (Angular, Ionic), y también he tocado
+          apps móviles nativas con Capacitor. Soy organizado, cumplo plazos y me gusta entender el "por qué" antes de picar código.
+        </p>
+        <div class="about-cards reveal">
+          <div class="mini-card">
+            <span class="mini-card-icon">🎓</span>
+            <h4>DAW — Institut Caparrella</h4>
+            <p>2022 – 2025, Lleida</p>
+          </div>
+          <div class="mini-card">
+            <span class="mini-card-icon">💼</span>
+            <h4>Prácticas en Indra Sistemas</h4>
+            <p>Backend PHP, 2FA y APIs REST</p>
+          </div>
+          <div class="mini-card">
+            <span class="mini-card-icon">🏆</span>
+            <h4>Proyecto ganador del TFG</h4>
+            <p>Web de gestión FC Alpicat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <p class="section-tag reveal">Stack técnico</p>
+      <h2 class="section-title reveal">Con qué trabajo</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3>Backend</h3>
+          <div class="tags">
+            <span>PHP</span><span>CodeIgniter 4</span><span>MySQL</span><span>APIs REST</span><span>Auth &amp; roles</span><span>2FA/TOTP</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Frontend</h3>
+          <div class="tags">
+            <span>JavaScript</span><span>TypeScript</span><span>Angular</span><span>HTML5</span><span>CSS3</span><span>Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Móvil</h3>
+          <div class="tags">
+            <span>Ionic</span><span>Capacitor</span><span>Android nativo</span><span>Firebase</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Herramientas</h3>
+          <div class="tags">
+            <span>Git</span><span>Vite</span><span>npm</span><span>CKEditor</span><span>VS Code</span><span>IntelliJ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <p class="section-tag reveal">Proyectos</p>
+      <h2 class="section-title reveal">Cosas que he construido</h2>
+      <p class="section-sub reveal">Código disponible bajo petición — escríbeme y te enseño el repositorio del proyecto que te interese.</p>
+
+      <div class="projects-grid">
+
+        <article class="project-card featured reveal">
+          <div class="project-visual visual-1">
+            <div class="mock-browser">
+              <div class="mock-bar"><span></span><span></span><span></span></div>
+              <div class="mock-body">
+                <div class="mock-row w80"></div>
+                <div class="mock-row w60"></div>
+                <div class="mock-grid">
+                  <div class="mock-block"></div><div class="mock-block"></div><div class="mock-block"></div>
+                </div>
+              </div>
+            </div>
+            <span class="project-badge">🏆 TFG ganador</span>
+          </div>
+          <div class="project-body">
+            <h3>Web de gestión para club de fútbol</h3>
+            <p class="project-meta">Trabajo Final de Grado (DAW) · 2025 · Pendiente de publicación</p>
+            <p>Aplicación full-stack en solitario para un club de fútbol real, con parte pública y panel privado de administración.</p>
+            <ul>
+              <li>Autenticación con roles (jugador, entrenador, junta) y CRUD completo para equipos, jugadores, entrenamientos, noticias, galería y patrocinadores</li>
+              <li>Web pública con clasificaciones, calendario, tienda del club y selector de idioma</li>
+            </ul>
+            <div class="tags small">
+              <span>PHP</span><span>CodeIgniter 4</span><span>MySQL</span><span>CKEditor</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-2">
+            <div class="mock-browser">
+              <div class="mock-bar"><span></span><span></span><span></span></div>
+              <div class="mock-body">
+                <div class="mock-row w70"></div>
+                <div class="mock-list"><div></div><div></div><div></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>TekPlus — Gestión de incidencias TIC</h3>
+            <p class="project-meta">Proyecto final de 1er curso DAW · 2023-2024</p>
+            <p>Sistema de tickets para centros educativos: incidencias de equipos, intervenciones y stock, con roles de profesor/técnico.</p>
+            <div class="tags small">
+              <span>PHP</span><span>CodeIgniter 4</span><span>MySQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-3">
+            <div class="mock-browser">
+              <div class="mock-bar"><span></span><span></span><span></span></div>
+              <div class="mock-body">
+                <div class="mock-grid two">
+                  <div class="mock-block tall"></div><div class="mock-block tall"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Rescue Pets — Adopción de animales</h3>
+            <p class="project-meta">Proyecto Angular · 2023-2024</p>
+            <p>App de adopción con autenticación Firebase y arquitectura de workspace compartida entre la versión web y una app móvil con Ionic.</p>
+            <div class="tags small">
+              <span>Angular</span><span>Firebase</span><span>Ionic</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-4">
+            <div class="mock-phone">
+              <div class="mock-phone-notch"></div>
+              <div class="mock-phone-body">
+                <div class="mock-row w50 center"></div>
+                <div class="mock-grid two"><div class="mock-block"></div><div class="mock-block"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>App complementaria (Ionic + Capacitor)</h3>
+            <p class="project-meta">Proyecto móvil · 2024</p>
+            <p>App nativa Android que consume una API REST pública, con escáner de códigos QR/barras vía Google ML Kit.</p>
+            <div class="tags small">
+              <span>Ionic 8</span><span>Angular 17</span><span>Capacitor 6</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-5">
+            <div class="mock-browser">
+              <div class="mock-bar"><span></span><span></span><span></span></div>
+              <div class="mock-body center-body">
+                <div class="mock-pac"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Pac-Man desde cero</h3>
+            <p class="project-meta">Proyecto personal · 2025</p>
+            <p>Juego completo con sistema de login/registro, menú y dashboard, documentado con JSDoc.</p>
+            <div class="tags small">
+              <span>JavaScript</span><span>p5.js</span><span>Vite</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <p class="section-tag reveal">Trayectoria</p>
+      <h2 class="section-title reveal">Experiencia</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Mar 2024 – Jun 2024</span>
+            <h4>Indra Sistemas, S.A. — Prácticas en Desarrollo de Aplicaciones Web</h4>
+            <p>Backend en PHP/CodeIgniter 4: registro y login por sesión, verificación en dos pasos (Google Authenticator/TOTP) y una API REST completa con CRUD sobre recursos.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jul 2025 – Sep 2025</span>
+            <h4>Cooperativa del Camp Sant Gaietà — Mozo de almacén</h4>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jul 2024 – Sep 2024</span>
+            <h4>Restaurantes BK, Lleida — Atención al cliente</h4>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Sep 2025 – Actualidad</span>
+            <h4>The Indoor Jumping, Lleida — Monitor de actividades fisio-deportivas</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <p class="section-tag reveal">Contacto</p>
+      <h2 class="section-title reveal">Hablemos de tu próximo proyecto</h2>
+      <p class="section-sub reveal">Busco mi primera posición estable como desarrollador. Si crees que puedo encajar en tu equipo, escríbeme.</p>
+      <div class="contact-grid reveal">
+        <a class="contact-card" href="mailto:nfaris.w@gmail.com">
+          <span class="contact-icon">✉️</span>
+          <div><h4>Email</h4><p>nfaris.w@gmail.com</p></div>
+        </a>
+        <a class="contact-card" href="tel:+34682935998">
+          <span class="contact-icon">📞</span>
+          <div><h4>Teléfono</h4><p>(+34) 682 935 998</p></div>
+        </a>
+        <div class="contact-card">
+          <span class="contact-icon">📍</span>
+          <div><h4>Ubicación</h4><p>Lleida, España</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Naim Faris Benages</span>
+    <span>Hecho con HTML, CSS y JS — sin frameworks</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
